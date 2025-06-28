@@ -35,6 +35,10 @@ import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
+import smileyLogo from "./smileylogo.png";
+import smileyLogo_dark from "./smileylogo_dark.png";
+import profileSmall from "./myProfile.png";
+import profileBig from "./myBigProfile.png";
 
 export const assets = {
   user_image,
@@ -74,6 +78,10 @@ export const assets = {
   send_icon,
   right_arrow_bold,
   right_arrow_bold_dark,
+  smileyLogo,
+  smileyLogo_dark,
+  profileSmall,
+  profileBig,
 };
 
 export const workData = [
@@ -104,7 +112,7 @@ export const serviceData = [
     icon: assets.web_icon,
     title: "Web design",
     description: "Web development is the process of building, programming...",
-    link: "",
+    link: "https://yc-directory-pi-gray.vercel.app/",
   },
   {
     icon: assets.mobile_icon,
@@ -118,13 +126,13 @@ export const serviceData = [
     title: "UI/UX design",
     description:
       "UI/UX design focuses on creating a seamless user experience...",
-    link: "",
+    link: "https://screen-recorder-green-rho.vercel.app/sign-in",
   },
   {
     icon: assets.graphics_icon,
     title: "Graphics design",
     description: "Creative design solutions to enhance visual communication...",
-    link: "",
+    link: "https://kiuproject.netlify.app/",
   },
 ];
 
